@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+ <defs>
+  <radialGradient id="r" cx="42%" cy="35%"><stop stop-color="#f46b70"/><stop offset=".48" stop-color="#c71935"/><stop offset="1" stop-color="#790d25"/></radialGradient>
+  <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#77945a"/><stop offset="1" stop-color="#294d35"/></linearGradient>
+  <linearGradient id="gold" x2="1"><stop stop-color="#a77b36"/><stop offset=".5" stop-color="#e2c47d"/><stop offset="1" stop-color="#a77b36"/></linearGradient>
+ </defs>
+ <!-- fine gold botanical stem -->
+ <path d="M15 285 C65 230 80 160 150 105 C208 58 262 48 338 12" fill="none" stroke="url(#gold)" stroke-width="1.6" opacity=".8"/>
+ <path d="M70 224 Q22 190 28 150 Q74 163 83 205Z M112 164 Q92 111 126 83 Q151 124 126 165Z M183 99 Q178 48 221 34 Q231 77 194 108Z M247 63 Q259 17 303 17 Q300 57 257 73Z" fill="url(#leaf)" stroke="#456344" stroke-width="1.2"/>
+ <path d="M33 153 Q58 180 78 207 M128 87 Q126 125 122 158 M222 38 Q207 68 190 99 M302 20 Q282 44 256 69" fill="none" stroke="#b3bd82" stroke-width="1" opacity=".75"/>
+ <!-- rose bloom -->
+ <g transform="translate(202 153)">
+  <path d="M0 55 C-33 53 -56 31 -45 2 C-37 -21 -15 -36 4 -26 C22 -47 54 -31 53 -7 C75 8 60 43 32 49 C22 66 6 66 0 55Z" fill="url(#r)" stroke="#8c1830" stroke-width="2"/>
+  <path d="M-34 3 C-27 -23 0 -28 10 -7 C-9 -12 -19 4 -11 17 C-1 28 16 18 17 4 C34 14 25 39 4 42 C-18 44 -42 28 -34 3Z" fill="#e33b50" stroke="#f28b85" stroke-width="1.3"/>
+  <path d="M-12 -7 C-4 -25 22 -20 23 -3 C24 11 8 20 -3 10 C-10 4 -6 -4 1 -7 C8 -10 12 -2 8 3" fill="none" stroke="#f69a91" stroke-width="2" stroke-linecap="round"/>
+  <path d="M-8 51 Q-17 75 -36 88 Q-8 91 5 69 Q21 91 43 80 Q20 70 15 50" fill="#527342" stroke="#34583b" stroke-width="1.4"/>
+ </g>
+ <!-- baby's breath -->
+ <g fill="#fffaf0" stroke="#d7c8a7" stroke-width=".7">
+  <circle cx="292" cy="112" r="4"/><circle cx="309" cy="96" r="3.5"/><circle cx="326" cy="115" r="3.8"/><circle cx="281" cy="91" r="3"/><circle cx="333" cy="79" r="3.4"/><circle cx="300" cy="70" r="3"/>
+ </g>
+ <g stroke="#799064" stroke-width="1.3" fill="none"><path d="M244 139 Q281 117 292 112 M244 139 Q285 99 309 96 M244 139 Q297 121 326 115 M244 139 Q271 100 281 91 M244 139 Q303 88 333 79 M244 139 Q275 76 300 70"/></g>
+</svg>
